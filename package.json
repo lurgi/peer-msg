@@ -1,4 +1,8 @@
 {
-  "name": "peer-msg",
-  "packageManager": "yarn@4.3.1"
+  "name": "peer-msg-monorepo",
+  "packageManager": "yarn@4.3.1",
+  "workspaces": [
+    "library",
+    "signalingServer"
+  ]
 }
