@@ -1,1 +1,1 @@
-console.log("first setting");
+export { CryptoManager } from "./crypto";
