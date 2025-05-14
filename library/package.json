@@ -17,6 +17,7 @@
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-typescript": "^12.1.2",
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.15.17",
     "@types/simple-peer": "^9.11.8",
     "@typescript-eslint/eslint-plugin": "^8.32.0",
