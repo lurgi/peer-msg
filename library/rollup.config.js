@@ -21,7 +21,22 @@ module.exports = {
       format: "cjs",
       sourcemap: true,
     },
+    {
+      file: "dist/index.browser.js",
+      format: "iife",
+      name: "PeerMsg",
+      globals: {
+        "simple-peer": "SimplePeer",
+      },
+      sourcemap: true,
+    },
   ],
   external,
-  plugins: [resolve(), typescript(), commonjs()],
+  plugins: [
+    resolve({
+      browser: true,
+    }),
+    typescript(),
+    commonjs(),
+  ],
 };
