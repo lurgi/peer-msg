@@ -1,6 +1,17 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "esModuleInterop": true
-  }
+    "downlevelIteration": true,
+    "target": "es2015",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true, // 크로스 플랫폼 호환성을 위해서
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationDir": "./dist/types",
+
+    "composite": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.test.ts"]
 }
