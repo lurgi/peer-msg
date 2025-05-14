@@ -1,1 +1,1 @@
-export { CryptoManager } from "./crypto";
+export { CryptoManager } from "./CryptoManager";
