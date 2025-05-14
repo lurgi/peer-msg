@@ -3,8 +3,11 @@
   "packageManager": "yarn@4.3.1",
   "workspaces": [
     "library",
-    "signalingServer"
+    "server"
   ],
+  "scripts": {
+    "test:lib": "yarn workspace peer-msg test"
+  },
   "devDependencies": {
     "typescript": "^4.4.4"
   }

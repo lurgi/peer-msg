@@ -11,7 +11,8 @@
     "tweetnacl-util": "^0.15.1"
   },
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "jest"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.3",
